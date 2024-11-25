@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Monoton");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("https://media.giphy.com/media/F8C2mZCv9wDE4/giphy.gif");
+}
+
+/*HEADER*/
+#header-background {
+  height: 100vh;
+  width: 100%;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  background: url("https://media.giphy.com/media/JDwUJgyZfC2Xe/giphy.gif") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.title1 {
+  font-family: "Sacramento", cursive;
+  letter-spacing: 0.06em;
+  font-size: calc(5vw + 5vh + 2vmin);
+  color: black;
+  display: inline;
+  transform: translateZ(-2px);
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+#menu {
+  list-style-type: none;
+  /*remove the bullet points*/
+  /*object-fit:; */
+  font-family: "Gloria Hallelujah", cursive, sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  margin: 0px auto;
+  background: black;
+  /*opacity: 0.6;*/
+}
+
+li {
+  display: inline;
+  width: 100%;
+}
+li a {
+  color: white;
+  font-size: 3vh;
+  padding: 0px 10px;
+  /*@include links(none, none,#117e90,none);*/
+}
+
+a:hover {
+  background-color: #117e90;
+}
+
+/*Main*/
+.main-welcome {
+  background-color: black;
+  position: relative;
+  top: 0;
+  text-align: center;
+  height: 800px;
+}
+.main-welcome .welcome {
+  font-size: 18px;
+  padding: 20px 0px;
+  margin: 0.5px;
+  word-spacing: 3px;
+  color: white;
+  font-family: cursive;
+}
+.main-welcome .welcome .welcome1 {
+  font-size: calc(5vw + 5vh + 2vmin);
+  color: #ffbf00;
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px 0px 15px 0px;
+  background-color: #ffbf00;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.container-3d {
+  margin: 4% auto;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 70px;
+  perspective: 1000px;
+}
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotation 20s infinite linear;
+}
+#carousel .one {
+  background: url("https://cdn.bestofpainting.com/images/vincent_van_gogh/1885_head_of_a_woman_2k.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .two {
+  background: url("https://weclustr.com/wp-content/uploads/2017/04/Sunflowers-by-Vincent-Van-Gogh-OSA431.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .three {
+  background: url("https://uploads3.wikiart.org/images/vincent-van-gogh/ladies-of-arles-memories-of-the-garden-at-etten-1888.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .four {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/0/0f/Van_Gogh_Portrait_Eugene_Boch.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .five {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/4/42/WLA_moma_Vincent_van_Gogh_The_Olive_Trees_2.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .six {
+  background: url("https://s1.favim.com/orig/150630/art-couple-dark-lake-Favim.com-2876660.png") no-repeat center center;
+  background-size: cover;
+}
+#carousel .seven {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/9/90/Van_Gogh_Almond_blossom.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .eight {
+  background: url("https://chuckmanchicagonostalgia.files.wordpress.com/2014/12/painting-chicago-art-institute-van-goghs-bedroom-in-arles-there-is-another-version1.jpg") no-repeat center center;
+  background-size: cover;
+}
+#carousel .nine {
+  background: url("http://images.fineartamerica.com/images-medium-large/the-church-at-auvers-sur-oise-vincent-van-gogh.jpg") no-repeat center center;
+  background-size: cover;
+  
+  
+}
+#carousel .ten {
+  background: url("https://arthodynka.ru/wp-content/uploads/2023/02/pejzazh-v-overe-posle-dozhdja-van-gog-1890-fd56367.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#carousel .eleven {
+  background: url("https://arthodynka.ru/wp-content/uploads/2023/02/pejzazh-v-overe-posle-dozhdja-van-gog-1890-8e2121e.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#carousel .twelve {
+  background: url("https://arthodynka.ru/wp-content/uploads/2023/02/pejzazh-v-overe-posle-dozhdja-van-gog-1890-5462acb.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#carousel:hover {
+  animation-play-state: paused;
+}
+
+#carousel figure {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 10px;
+  top: 10px;
+  background: white;
+  overflow: hidden;
+  border: solid 5px black;
+}
+
+#carousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(2) {
+  transform: rotateY(40deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(3) {
+  transform: rotateY(80deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(4) {
+  transform: rotateY(120deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(5) {
+  transform: rotateY(160deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(6) {
+  transform: rotateY(200deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(7) {
+  transform: rotateY(240deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(8) {
+  transform: rotateY(280deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(9) {
+  transform: rotateY(320deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(10) {
+  transform: rotateY(360deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(11) {
+  transform: rotateY(400deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(12) {
+  transform: rotateY(200deg) translateZ(288px);
+}
+
+img {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+/* PURE HTML/CSS SLIDER BACKGROUND*/
+#mainsecond {
+  background-position: center;
+  background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/3-the-starry-night-vincent-van-gogh.jpg") no-repeat center center fixed;
+  animation: slide 20s linear infinite;
+  height: 100vh;
+  width: 100%;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#mainsecond .bio {
+  height: 570px;
+  max-width: 500px;
+  text-align: center;
+  background: url("http://www.artyfactory.com/art_appreciation/portraits/van_gogh/van_gogh_2.jpg") no-repeat center center fixed;
+  background-size: contain;
+  border: 0;
+  margin: auto;
+  position: relative;
+  top: 60px;
+  padding: 20px;
+  border-radius: 15px 0px 15px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#mainsecond .bio p {
+  font-size: calc(1vw + 1vh + 2vmin + 2max);
+  background-size: contain;
+  font-family: serif;
+  word-spacing: 10px;
+  margin-bottom: 0;
+  color: #f0eae3;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  overflow: hidden;
+  min-height: 600px;
+  width: 100%;
+}
+
+/* THIS IS THE GRID layout*/
+.wrappergrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  list-style: none;
+  margin: 1em auto;
+  padding: 5px;
+  width: 100%;
+  align-items: center;
+  background: url("https://media.giphy.com/media/F8C2mZCv9wDE4/giphy.gif");
+}
+
+.wrappergrid li {
+  border: 1px;
+  justify-self: center;
+  align-self: center;
+}
+
+.wrappergrid li.landscape {
+  grid-column-end: span 3;
+  grid-row-end: span 2;
+}
+
+.wrappergrid li.landscape1 {
+  grid-column-end: span 2;
+  grid-row-end: span 1;
+}
+
+.wrappergrid li.quote1 {
+  display: block;
+  grid-row-end: span 1;
+  grid-column-end: span 3;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrappergrid li.quote2 {
+  display: inline;
+  grid-row-end: span 1;
+  grid-column-end: span 5;
+  justify-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrappergrid li.form1 {
+  grid-column-end: span 3;
+  grid-row-end: span 1;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#signup-button {
+  border-radius: 10px;
+  background: #4286f4;
+  color: yellow;
+  justify-self: center;
+}
+#signup-button:hover {
+  background-color: yellow;
+  color: #4286f4;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.wrappergrid li img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+blockquote {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  word-spacing: 0.6em;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*THIS IS THE FOOTER*/
+footer {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: black;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.adress {
+  background: none;
+  background: contain;
+  color: white;
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#icons {
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+}
+#icons li {
+  display: inline;
+}
+#icons li img {
+  height: 50px;
+  width: 50px;
+}
+
+#grand-menu {
+  background: none;
+  text-align: center;
+  text-align: justify;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  font-size: 30px;
+  text-transform: none;
+}
+#grand-menu .pequeno {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 15px;
+  color: white;
+}
+#grand-menu li {
+  list-style-type: none;
+  padding: 6px;
+  color: white;
+  font-size: 30px;
+}
+#grand-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.upper {
+  text-transform: uppercase;
+  color: orange;
+  background: #708090;
+}
+
+.sig {
+  font-size: 30px;
+}
+
+/* THIS IS THE FOOTER NAV BAR*/
+#main_nav {
+  clear: both;
+  position: relative;
+  top: 30px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+}
+
+#main_nav ul {
+  list-style: none;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+#main_nav a {
+  display: inline-block;
+  color: lightgrey;
+  background-color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+  width: 100%;
+}
+
+#main_nav li a:hover {
+  color: #555;
+  background-color: #fff;
+}
+
+#main_nav li {
+  display: inline-block;
+  line-height: 1em;
+  padding: 4px;
+  width: auto;
+}
+
+#carla {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+/* THESE ARE THE KEYFRAMES*/
+@keyframes slide {
+  0%, 100% {
+    background: url("https://images.metmuseum.org/CRDImages/ep/original/DT1947.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  20% {
+    background: url("http://www.vangoghgallery.com/catalog/image/0297/Skull.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  40% {
+    background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/3-the-starry-night-vincent-van-gogh.jpg");
+    background-size: cover;
+    /*background-size:contain;*/
+    background-repeat: no-repeat;
+  }
+  55% {
+    background: url("http://www.cuded.com/wp-content/uploads/2014/02/van-gogh-s-chair-1889.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  70% {
+    background: url("https://d32dm0rphc51dk.cloudfront.net/ujCq3y5qVUrIyPCG-M_v3w/larger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
